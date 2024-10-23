@@ -49,6 +49,10 @@ main {
     margin-bottom: 2em;
 }
 
+main p {
+    margin-top: 1em;
+}
+
 .main-footer {
     color: white;
     background-color: black;
