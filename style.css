@@ -1,0 +1,63 @@
+.full-width-margin {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.full-width-nomargin {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fixed-width-content {
+    max-width: 1150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.monospace {
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.open-sans-light {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+.branding {
+    font-size: 4em;    
+    word-spacing: -1.5rem; 
+}
+
+.clouds-banner {
+    border-style: solid;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-color: black;
+}
+
+main {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.main-footer {
+    color: white;
+    background-color: black;
+    min-height: 100px;
+    overflow:auto;
+    font-size: small;
+    padding-bottom: 2em;
+}
+
+.main-footer div {
+    margin-top: 2em;
+}
