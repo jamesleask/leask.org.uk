@@ -27,12 +27,21 @@
     font-weight: 200;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100;
-  }
+        "wdth" 100;
+}
+
+.dark-background {
+    background-color: #001920;
+    color: white;
+}
+
+.light-foreground {
+    color: #001920;
+}
 
 .branding {
-    font-size: 4em;    
-    word-spacing: -1.5rem; 
+    font-size: 4em;
+    word-spacing: -1.5rem;
 }
 
 .clouds-banner {
@@ -41,7 +50,7 @@
     border-bottom-width: 2px;
     border-left-width: 0px;
     border-right-width: 0px;
-    border-color: black;
+    border-color: #001920;
 }
 
 main {
@@ -54,10 +63,8 @@ main p {
 }
 
 .main-footer {
-    color: white;
-    background-color: black;
     min-height: 100px;
-    overflow:auto;
+    overflow: auto;
     font-size: small;
     padding-bottom: 2em;
 }
