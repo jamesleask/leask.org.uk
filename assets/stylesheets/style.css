@@ -1,9 +1,4 @@
-.full-width-margin {
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
-.full-width-nomargin {
+.full-width {
     margin-right: auto;
     margin-left: auto;
 }
@@ -27,7 +22,7 @@
     font-weight: 200;
     font-style: normal;
     font-variation-settings:
-        "wdth" 100;
+        "width" 100;
 }
 
 .dark-background {
@@ -40,8 +35,21 @@
 }
 
 .branding {
-    font-size: 4em;
-    word-spacing: -1.5rem;
+    word-spacing: -0.33em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+
+@media(min-width:768px) {
+    .branding {
+        font-size: 3em;
+    }
+}
+
+@media(max-width:767px) {
+    .branding {
+        font-size: 2em;
+    };
 }
 
 .clouds-banner {
@@ -64,7 +72,7 @@ main p {
 
 .main-footer {
     min-height: 100px;
-    overflow: auto;
+    overflow: hidden;
     font-size: small;
     padding-bottom: 2em;
 }
