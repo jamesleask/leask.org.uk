@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
+  <link rel="canonical" href="https://leask.org.uk/" />
 
   <meta name="description"
     content="James is a time served software engineer that is dedicated to solving real-world problems using software.">
@@ -43,14 +44,53 @@
   <meta name="twitter:description"
     content="James is a time served software engineer that is dedicated to solving real-world problems using software.">
 
-    <title>leask.org.uk</title>
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "James Leask",
+      "url": "https://leask.org.uk",
+      "jobTitle": "Software Engineer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Oracle"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/jamesleask/"
+      ],
+      "description": "James is a time served software engineer that is dedicated to solving real-world problems using software."
+    }
+  </script>
+
+  <title>leask.org.uk</title>
 </head>
 
 <body>
   <header>
     <div>
       <div class="branding monospace light-foreground full-width-margin">leask.org.uk&nbsp;&block;</div>
-      <div class="clouds-banner"><img src="assets/images/clouds-banner.jpeg" /></div>
+      <div class="clouds-banner">
+        <picture>
+          <source
+            srcset="assets/images/optimized/clouds-banner-800.webp 800w,
+                    assets/images/optimized/clouds-banner-1200.webp 1200w,
+                    assets/images/optimized/clouds-banner-1600.webp 1600w"
+            sizes="100vw"
+            type="image/webp">
+          <source
+            srcset="assets/images/optimized/clouds-banner-800.jpg 800w,
+                    assets/images/optimized/clouds-banner-1200.jpg 1200w,
+                    assets/images/optimized/clouds-banner-1600.jpg 1600w"
+            sizes="100vw"
+            type="image/jpeg">
+          <img src="assets/images/optimized/clouds-banner-1200.jpg" 
+               alt="Clouds banner image" 
+               loading="lazy"
+               width="1200"
+               height="400">
+        </picture>
+      </div>
     </div>
   </header>
   <main class="fixed-width-content open-sans-light light-foreground">

@@ -61,6 +61,20 @@
     border-left-width: 0px;
     border-right-width: 0px;
     border-color: #001920;
+    width: 100%;
+    overflow: hidden;
+}
+
+.clouds-banner picture {
+    display: block;
+    width: 100%;
+}
+
+.clouds-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
 }
 
 main {
